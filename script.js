@@ -69,5 +69,19 @@ result = nbr1/nbr2;
 console.log(`%cI divided ${nbr1} and ${nbr2} and the result is ${result}.`,'color: orange');
 
 console.log("//Exercise 9//");
+console.log(`%c${person1} says:`,'color:blue');
+console.log("9. Create a variable a and assign it a value. Log it to the console. Now add 5 to a by reassigning the value of a by using the existing a and the number 5. Log it to the console.");
+let a = 9;
+console.log(a);
+a += 5;
+console.log(a);
+
 console.log("//Exercise 10//");
+console.log(`%c${person1} says:`,'color:blue');
+console.log('%cThe value of a is 9', 'color: orange');
+
 console.log("//Exercise 11//");
+console.log(`%c${person1} says:`,'color:blue; font-weight:bold','11. Explain each line of code in the previous question for a friend.');
+console.log(`%c${person2} says:`,'color:hotpink; font-weight:bold','Kvack, kvack!!');
+console.log(`%c${person1} says:`,'color:blue; font-weight:bold');
+console.log("Oh, thank you so much"+`%c ${person1}`,'color:hotpink;font-weight:bold',"! Now everything is cristal clear :-)");
